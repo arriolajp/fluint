@@ -8,7 +8,7 @@ const HomeScreen = () => {
             <ScrollView alwaysBounceHorizontal={false} alwaysBounceVertical={false}>
 {/*profile*/}
                 <View>
-                    <Image source= {getImageUrl('pfp.webp')}/>
+                    <Image source= {getImageUrl('pfp.png')}/>
                     <Text>hello, name</Text>
                 </View>
 {/*flashcards*/}
@@ -29,8 +29,8 @@ const HomeScreen = () => {
                 <View>
                     <Text>audio clips</Text>
                     <View>
-                        <Image source= {getImageUrl('headphone.jpg')}/>
-                        <Image source= {getImageUrl('song-bar.jpg')}/>
+                        <Image source= {getImageUrl('headphone.png')}/>
+                        <Image source= {getImageUrl('song-bar.png')}/>
                         <Text>audio title</Text>
                     </View>
                 </View>

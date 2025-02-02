@@ -1,9 +1,9 @@
 const images = {
-    'pfp.webp': require('./pfp.webp'),
+    'pfp.png': require('./pfp.png'),
     'flashcard.png': require('./flashcard.png'),
-    'headphone.jpg': require('./headphone.jpg'),
-    'song-bar.jpg': require('./song-bar.jpg'),
-    
+    'headphone.png': require('./headphone.png'),
+    'song-bar.png': require('./song-bar.png'),
+
     // Add more images as needed
   };
     
