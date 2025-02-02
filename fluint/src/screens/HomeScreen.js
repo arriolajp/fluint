@@ -1,5 +1,5 @@
 import { StyleSheet, SafeAreaView, ScrollView, Text, View, ActivityIndicator, TextInput, FlatList, TouchableOpacity, Image, Pressable } from 'react-native';
-import {getImageUrl} from './util/utils'
+import {getImageUrl} from '../../util/utils'
 import { get } from 'react-native/Libraries/TurboModule/TurboModuleRegistry';
 
 const HomeScreen = () => {
