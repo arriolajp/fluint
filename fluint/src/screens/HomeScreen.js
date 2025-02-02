@@ -89,13 +89,6 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#ffffff',
   },
-  div: {
-    alignContent: 'center',
-    height: '40%',
-    width: '80%',
-    resizeMode: 'contain',
-    marginLeft: 40,
-  },
   scrollContent: {
     padding: 16,
   },
@@ -115,13 +108,22 @@ const styles = StyleSheet.create({
     fontFamily: 'Figtree_700Bold',
     marginLeft: 32,
   },
+  div: {
+    alignContent: 'center',
+    height: '40%',
+    width: '80%',
+    resizeMode: 'contain',
+    marginLeft: 40,
+    marginBottom: -16, // Negative margin to pull content closer
+  },
   flashcardContainer: {
     backgroundColor: '#FFF7AA',
     borderRadius: 16,
     padding: 16,
     marginBottom: 40,
-    position: 'relative',
+    marginTop: 8, // Small top margin for proper spacing
   },
+
   sectionTitle: {
     fontSize: 24,
     fontFamily: 'Figtree_700Bold',
