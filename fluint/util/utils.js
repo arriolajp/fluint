@@ -3,6 +3,7 @@ const images = {
     'flashcard.png': require('./flashcard.png'),
     'headphone.png': require('./headphone.png'),
     'song-bar.png': require('./song-bar.png'),
+    'div.png': require('./div.png'),
 
     // Add more images as needed
   };
