@@ -12,6 +12,7 @@ const StackNavigator = () => {
       <Stack.Navigator
         initialRouteName="Home" // Set initial screen
         screenOptions={{
+          headerShown: false,
           headerStyle: {
             backgroundColor: '#f4511e',
           },
@@ -23,7 +24,7 @@ const StackNavigator = () => {
         <Stack.Screen
           name="Home"
           component={HomeScreen}
-          options={{ title: 'Welcome to Home' }}
+          //options={{ title: 'Welcome to Home' }}
         />
         <Stack.Screen
           name="Chat"
